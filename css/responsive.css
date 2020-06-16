@@ -1,0 +1,101 @@
+
+
+
+@media screen and (min-width: 1200px) {
+   .mattbtn{
+       display: block;
+   }
+   #signin{
+    display: none;
+}
+  }
+
+  @media screen and (max-width: 1200px) {
+    ul.grt-menu li a:hover{
+        color: springgreen;
+      
+    }
+    .mattbtn{
+        display: none ;
+    }
+    #signin{
+        display: block;
+    }
+    ul.open-grt-menu {
+
+        background: #0E0537;
+
+    }
+    .grt-menu.open-grt-menu{
+        padding: 50px 0;
+    }
+    #signin{
+        margin: auto;
+    }
+    #myHeader{
+        z-index: 9999 !important;
+    }
+    .products-area .client-slider .slick-prev {
+        z-index: 9998 !important;
+    }
+      
+   }
+   @media screen and (max-width: 956px){
+       .item-box{
+           margin-bottom: 20px;
+       }
+       .clean-text{
+           text-align: center;
+       }
+       .dicuse-box{
+        margin-bottom: 20px;
+       }
+       .bottom-dicuse h1{
+           text-align: center;
+       }
+       .last-dic{
+        margin: auto;
+       }
+       .pricing-item{
+        margin-bottom: 20px;
+       }
+       .products-area .client-slider .slick-prev{
+           left: 40%;
+       }
+       .card{
+        margin-bottom: 20px;
+       }
+       .team-area .team-item .image img {
+        width: 64%;
+        height: auto;
+    }
+   }
+
+   @media screen and (max-width: 574px){
+    .faq-text{
+        text-align: center;
+    }
+    .faq-toggle{
+        margin-top: 30px;
+    }
+    .top-text{
+        text-align: center;
+    }
+    .creadit-area p{
+        text-align: center;
+    }
+  .social-buttons {
+        float: none !important;
+        text-align: center;
+        margin-top: 22px;
+        margin-left: -33px;
+    }
+   }
+   @media screen and (max-width: 450px){
+    .products-area .client-slider .slick-prev {
+        left: 24%;
+    }
+    .slick-next.slick-arrow {
+        right: 41% !important;
+    }
+   }
